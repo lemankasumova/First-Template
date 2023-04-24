@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.firstcontainer {
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background-color: beige;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+}
+
+.logo {
+    width: 120px;
+    display: flex;
+    margin-left: 30px;
+}
+
+.navbar ul {
+    float: right;
+    position: relative;
+    bottom: 60px;
+    right: 20px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 25px;
+    padding: 5px 8px;
+    transition: 0.5s;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.navbar ul li:hover {
+    background: darkcyan;
+}
+.navbar ul li a:hover {
+    color: white;
+}
+
+.simply {
+    color: darkcyan;
+    font-size: 25px;
+}
+
+.order {
+    margin-left: 70px;
+}
+.order span  {
+    color: darkcyan;
+    /* font-weight: bold; */
+    cursor: pointer;
+}
+
+.healthy {
+    margin-left: 70px;
+    width: 550px;
+    min-height: 150px;
+}
+.fresh {
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+}
+.come {
+    font-size: 20px;
+}
+.orderbox {
+    width: 160px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: darkcyan;
+    display: flex;
+    margin-left: 70px;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.orderbox:hover {
+    background-color: red;
+}
+
+.orderbox span {
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.direction {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.meal {
+    float: right;
+    margin-right: 70px;
+    position: relative;
+    bottom: 450px;
+}
+.meal img {
+    width: 550px;
+}
